@@ -11,3 +11,136 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.celular{
+  position: relative;
+  margin:  10px auto;
+  width: 300px;
+  height: 600px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.caja{
+  width:300px;
+  height: 270px;
+  border-radius: 30px;
+  background-color: #059A6A;
+}
+.hora{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 12px;
+  margin: 10px 20px;
+  height: 16px;
+}
+.hora b{
+  position: relative;
+  width:15%;
+}
+.hora .iconos{
+  font-weight: bold;
+  align-self: flex-end;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+}
+.usuario{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color:white;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.usuario-info{
+  width: 130px;
+}
+.usuario-img{
+  width:50px;
+}
+.usuario-name{
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.usuario-saldo{
+  font-size: 14px;
+}
+.usuario-iconos{
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.usuario-buscador{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+  padding:5px 10px;
+}
+.usuario-buscador input{
+  width:200px;
+  border:0;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+}
+input:focus {
+  outline: none;
+}
+.simbolos{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  margin: 20px;
+}
+.simbolo{
+  width: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.simbolo-icon{
+  width: 30px;
+  height: 30px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.simbolo-name{
+  margin-top: 10px;
+  font-size: 14px;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.menu-item{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.menu-item.active {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item-name{
+  font-size: 14px;
+}
